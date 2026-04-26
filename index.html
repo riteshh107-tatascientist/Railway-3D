@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🚆 Smart Railway System</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body>
+
+<canvas id="bg"></canvas>
+
+<section class="hero">
+  <h1>🚆 Smart Railway System</h1>
+  <p>3D + AI + Interactive Experience</p>
+</section>
+
+<section class="glass">
+  <h2>About</h2>
+  <p>3D Railway Simulation with AI Prediction</p>
+</section>
+
+<section class="glass">
+  <h2>AI Prediction</h2>
+  <button onclick="predict()">Predict Train Delay</button>
+  <p id="result"></p>
+</section>
+
+<script type="module" src="main.js"></script>
+
+</body>
+</html>
